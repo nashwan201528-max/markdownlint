@@ -12824,7 +12824,7 @@ exports[`markdownlint-test-scenarios.mjs > front-matter.md 1`] = `
 exports[`markdownlint-test-scenarios.mjs > github-auto-identifiers.md 1`] = `
 {
   "errors": [],
-  "fixed": "# GitHub Auto-Identifiers\\n\\n# Level One\\n\\n## Level Two\\n\\n### Level Three\\n\\n#### Level Four\\n\\n##### Level Five\\n\\n###### Level Six\\n\\n# UPPER CASE\\n\\n# lower case\\n\\n# mixed case\\n\\n# Various-dash -- characters ---\\n\\n#  Extra  spaces   throughout    \\n\\n# Various, \\"punctuation\\" (characters) throughout...\\n\\n# Markdown *emphasis*, __strong emphasis__, \`code\`, and [brackets]\\n\\n# HTML <i>emphasis</i> and <a href=\\"https://example.com\\">a link</a>\\n\\n## Duplicate\\n\\n## Duplicate\\n\\n## Duplicate\\n\\n# 1234 leading/trailing numbers 5678\\n\\n# 1234\\n\\n# 1. List item-ish\\n\\n# --\\n\\n# Äccented çharacters and mΘre\\n\\n# An ✅ emoji\\n\\n# Some “smart” quotes\\n\\n# En-dash and em—dash\\n\\n# Fullwidth ８ and ？\\n\\n> Update the links below by visiting this page on GitHub, running the following in the JavaScript console, and copy+paste-ing the output:\\n\\n\`\`\`js\\nArray.from(document.querySelector(\\"article\\").querySelectorAll(\\"div.markdown-heading > a\\")).map(({ariaLabel,hash})=>\`[\${ariaLabel.replace(/^Permalink: /, \\"\\")} > \${hash}](\${hash})\\\\n\`).join(\\"\\\\n\\")\\n\`\`\`\\n\\n[GitHub Auto-Identifiers > #github-auto-identifiers](#github-auto-identifiers)\\n\\n[Level One > #level-one](#level-one)\\n\\n[Level Two > #level-two](#level-two)\\n\\n[Level Three > #level-three](#level-three)\\n\\n[Level Four > #level-four](#level-four)\\n\\n[Level Five > #level-five](#level-five)\\n\\n[Level Six > #level-six](#level-six)\\n\\n[UPPER CASE > #upper-case](#upper-case)\\n\\n[lower case > #lower-case](#lower-case)\\n\\n[mixed case > #mixed-case](#mixed-case)\\n\\n[Various-dash -- characters --- > #various-dash----characters----](#various-dash----characters----)\\n\\n[Extra  spaces   throughout > #extra--spaces---throughout](#extra--spaces---throughout)\\n\\n[Various, \\\\\\"punctuation\\\\\\" (characters) throughout... > #various-punctuation-characters-throughout](#various-punctuation-characters-throughout)\\n\\n[Markdown emphasis, strong emphasis, code, and [brackets] > #markdown-emphasis-strong-emphasis-code-and-brackets](#markdown-emphasis-strong-emphasis-code-and-brackets)\\n\\n[HTML emphasis and a link > #html-emphasis-and-a-link](#html-emphasis-and-a-link)\\n\\n[Duplicate > #duplicate](#duplicate)\\n\\n[Duplicate > #duplicate-1](#duplicate-1)\\n\\n[Duplicate > #duplicate-2](#duplicate-2)\\n\\n[1234 leading/trailing numbers 5678 > #1234-leadingtrailing-numbers-5678](#1234-leadingtrailing-numbers-5678)\\n\\n[1234 > #1234](#1234)\\n\\n[1. List item-ish > #1-list-item-ish](#1-list-item-ish)\\n\\n[-- > #--](#--)\\n\\n[Äccented çharacters and mΘre > #%C3%A4ccented-%C3%A7haracters-and-m%CE%B8re](#%C3%A4ccented-%C3%A7haracters-and-m%CE%B8re)\\n\\n[An ✅ emoji > #an--emoji](#an--emoji)\\n\\n[Some “smart” quotes > #some-smart-quotes](#some-smart-quotes)\\n\\n[En-dash and em—dash > #en-dash-and-emdash](#en-dash-and-emdash)\\n\\n[Fullwidth ８ and ？ > #fullwidth-%EF%BC%98-and-](#fullwidth-%EF%BC%98-and-)\\n\\n<!-- markdownlint-configure-file {\\n  \\"line-length\\": false,\\n  \\"no-duplicate-heading\\": false,\\n  \\"no-inline-html\\": false,\\n  \\"no-multiple-space-atx\\": false,\\n  \\"no-trailing-punctuation\\": false,\\n  \\"no-trailing-spaces\\": false,\\n  \\"single-title\\": false\\n} -->\\n"
+  "fixed": "# GitHub Auto-Identifiers\\n\\n# Level One\\n\\n## Level Two\\n\\n### Level Three\\n\\n#### Level Four\\n\\n##### Level Five\\n\\n###### Level Six\\n\\n# UPPER CASE\\n\\n# lower case\\n\\n# mixed case\\n\\n# Various-dash -- characters ---\\n\\n#  Extra  spaces   throughout    \\n\\n# Various, \\"punctuation\\" (characters) throughout...\\n\\n# Markdown *emphasis*, __strong emphasis__, \`code\`, and [brackets]\\n\\n# HTML <i>emphasis</i> and <a href=\\"https://example.com\\">a link</a>\\n\\n## Duplicate\\n\\n## Duplicate\\n\\n## Duplicate\\n\\n# 1234 leading/trailing numbers 5678\\n\\n# 1234\\n\\n# 1. List item-ish\\n\\n# --\\n\\n# Äccented çharacters and mΘre\\n\\n# An ✅ emoji\\n\\n# Some “smart” quotes\\n\\n# En-dash and em—dash\\n\\n# Fullwidth ８ and ？\\n\\n# HTML <!-- comment -->\\n\\n# <!-- H --> T <!-- M -->L  <!-- comments -->\\n\\n> Update the links below by visiting this page on GitHub, running the following in the JavaScript console, and copy+paste-ing the output:\\n\\n\`\`\`js\\nArray.from(document.querySelector(\\"article\\").querySelectorAll(\\"div.markdown-heading > a\\")).map(({ariaLabel,hash})=>\`[\${ariaLabel.replace(/^Permalink: /, \\"\\")} > \${hash}](\${hash})\\\\n\`).join(\\"\\\\n\\")\\n\`\`\`\\n\\n[GitHub Auto-Identifiers > #github-auto-identifiers](#github-auto-identifiers)\\n\\n[Level One > #level-one](#level-one)\\n\\n[Level Two > #level-two](#level-two)\\n\\n[Level Three > #level-three](#level-three)\\n\\n[Level Four > #level-four](#level-four)\\n\\n[Level Five > #level-five](#level-five)\\n\\n[Level Six > #level-six](#level-six)\\n\\n[UPPER CASE > #upper-case](#upper-case)\\n\\n[lower case > #lower-case](#lower-case)\\n\\n[mixed case > #mixed-case](#mixed-case)\\n\\n[Various-dash -- characters --- > #various-dash----characters----](#various-dash----characters----)\\n\\n[Extra  spaces   throughout > #extra--spaces---throughout](#extra--spaces---throughout)\\n\\n[Various, \\\\\\"punctuation\\\\\\" (characters) throughout... > #various-punctuation-characters-throughout](#various-punctuation-characters-throughout)\\n\\n[Markdown emphasis, strong emphasis, code, and [brackets] > #markdown-emphasis-strong-emphasis-code-and-brackets](#markdown-emphasis-strong-emphasis-code-and-brackets)\\n\\n[HTML emphasis and a link > #html-emphasis-and-a-link](#html-emphasis-and-a-link)\\n\\n[Duplicate > #duplicate](#duplicate)\\n\\n[Duplicate > #duplicate-1](#duplicate-1)\\n\\n[Duplicate > #duplicate-2](#duplicate-2)\\n\\n[1234 leading/trailing numbers 5678 > #1234-leadingtrailing-numbers-5678](#1234-leadingtrailing-numbers-5678)\\n\\n[1234 > #1234](#1234)\\n\\n[1. List item-ish > #1-list-item-ish](#1-list-item-ish)\\n\\n[-- > #--](#--)\\n\\n[Äccented çharacters and mΘre > #%C3%A4ccented-%C3%A7haracters-and-m%CE%B8re](#%C3%A4ccented-%C3%A7haracters-and-m%CE%B8re)\\n\\n[An ✅ emoji > #an--emoji](#an--emoji)\\n\\n[Some “smart” quotes > #some-smart-quotes](#some-smart-quotes)\\n\\n[En-dash and em—dash > #en-dash-and-emdash](#en-dash-and-emdash)\\n\\n[Fullwidth ８ and ？ > #fullwidth-%EF%BC%98-and-](#fullwidth-%EF%BC%98-and-)\\n\\n[HTML  > #html-](#html-)\\n\\n[ T L   > #-t-l--](#-t-l--)\\n\\n<!-- markdownlint-configure-file {\\n  \\"line-length\\": false,\\n  \\"no-duplicate-heading\\": false,\\n  \\"no-inline-html\\": false,\\n  \\"no-multiple-space-atx\\": false,\\n  \\"no-space-in-links\\": false,\\n  \\"no-trailing-punctuation\\": false,\\n  \\"no-trailing-spaces\\": false,\\n  \\"single-title\\": false\\n} -->\\n"
 }
 `;
 
@@ -36393,6 +36393,78 @@ exports[`markdownlint-test-scenarios.mjs > no-alt-text.md 1`] = `
     }
   ],
   "fixed": "# Images with and without alternate text\\n\\n![Alternate text](image.jpg)\\n\\n![](image.jpg) {MD045}\\n\\n![Alternate text](image.jpg \\"Title\\")\\n\\n![](image.jpg \\"Title\\") {MD045}\\n\\nImage without alternate text ![](image.jpg) in a sentence. {MD045}\\n\\nReference image with alternate text ![Alternate text][notitle]\\n\\nReference image without alternate text ![][notitle] {MD045}\\n\\nReference image with alternate text and title ![Alternate text][title]\\n\\nReference image without alternate text and title ![][title] {MD045}\\n\\nLink to image with alternate text [![Alternate text](image.jpg)](image.jpg)\\n\\nLink to image without alternate text [![](image.jpg)](image.jpg) {MD045}\\n\\nMulti-line image with alternate text ![Alternate text](image.jpg \\"Title\\"\\n)\\n\\nMulti-line image without alternate text ![](image.jpg \\"Title\\"\\n) {MD045:28}\\n\\n<!-- markdownlint-disable no-inline-html -->\\n\\nImage tag with alt attribute set to text\\n<img src=\\"image.png\\" alt=\\"Descriptive text\\" />\\n\\nImage tag with alt attribute not set\\n<img src=\\"image.png\\" alt> {MD045}\\n\\nImage tag with alt attribute set to decorative with an empty double-quote string\\n<img src=\\"image.png\\" alt=\\"\\" />\\n\\nImage tag with alt attribute set to decorative with an empty single-quote string\\n<img src=\\"image.png\\" alt='' />\\n\\nImage tag with no alt attribute <img src=\\"image.png\\" /> {MD045}\\n\\nMulti-line image tag with no alt text\\n<img\\n  src=\\"image.png\\"> {MD045:48}\\n\\nMulti-line image tag with alt attribute not set\\n<img\\n  src=\\"image.png\\"\\n  alt> {MD045:52}\\n\\nMulti-line image tag with alt text\\n<img\\n  src=\\"image.png\\"\\n  alt=\\"Description\\"\\n  >\\n\\nUppercase image tag with alt attribute set\\n<IMG SRC=\\"cat.png\\" ALT=\\"Descriptive text\\">\\n\\nUppercase image tag with no alt set <IMG SRC=\\"cat.png\\" /> {MD045}\\n\\n<p>\\n  <img src=\\"image.png\\" /> {MD045}\\n</p>\\n\\nNo alt attribute is okay when the image is hidden from assistive technology:\\n<img src=\\"image.png\\" aria-hidden=\\"true\\"/>\\n<img src=\\"image.png\\" ARIA-HIDDEN=\\"TRUE\\" />\\n\\nBut not when disabled: <img src=\\"image.png\\" aria-hidden=\\"false\\"/> {MD045}\\n\\nMulti-line image tag aria-hidden:\\n<img\\n  src=\\"image.png\\"\\n  aria-hidden=\\"true\\"\\n  />\\n\\n<!-- markdownlint-restore no-inline-html -->\\n\\n[notitle]: image.jpg\\n[title]: image.jpg \\"Title\\"\\n"
+}
+`;
+
+exports[`markdownlint-test-scenarios.mjs > no-multiple-blanks-maximum-0.md 1`] = `
+{
+  "errors": [
+    {
+      "lineNumber": 2,
+      "ruleNames": [
+        "MD012",
+        "no-multiple-blanks"
+      ],
+      "ruleDescription": "Multiple consecutive blank lines",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.0.0/doc/md012.md",
+      "errorDetail": "Expected: 0; Actual: 1",
+      "errorContext": null,
+      "errorRange": null,
+      "fixInfo": {
+        "deleteCount": -1
+      },
+      "severity": "error"
+    },
+    {
+      "lineNumber": 4,
+      "ruleNames": [
+        "MD012",
+        "no-multiple-blanks"
+      ],
+      "ruleDescription": "Multiple consecutive blank lines",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.0.0/doc/md012.md",
+      "errorDetail": "Expected: 0; Actual: 1",
+      "errorContext": null,
+      "errorRange": null,
+      "fixInfo": {
+        "deleteCount": -1
+      },
+      "severity": "error"
+    },
+    {
+      "lineNumber": 5,
+      "ruleNames": [
+        "MD012",
+        "no-multiple-blanks"
+      ],
+      "ruleDescription": "Multiple consecutive blank lines",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.0.0/doc/md012.md",
+      "errorDetail": "Expected: 0; Actual: 2",
+      "errorContext": null,
+      "errorRange": null,
+      "fixInfo": {
+        "deleteCount": -1
+      },
+      "severity": "error"
+    },
+    {
+      "lineNumber": 8,
+      "ruleNames": [
+        "MD012",
+        "no-multiple-blanks"
+      ],
+      "ruleDescription": "Multiple consecutive blank lines",
+      "ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.0.0/doc/md012.md",
+      "errorDetail": "Expected: 0; Actual: 1",
+      "errorContext": null,
+      "errorRange": null,
+      "fixInfo": {
+        "deleteCount": -1
+      },
+      "severity": "error"
+    }
+  ],
+  "fixed": "# Heading\\nText {MD012:-1}\\nText {MD012:-1} {MD012:-2}\\nText {MD012:+1}\\n<!-- markdownlint-configure-file {\\n  \\"blanks-around-headings\\": false,\\n  \\"no-multiple-blanks\\": {\\n    \\"maximum\\": 0\\n  }\\n} -->"
 }
 `;
 
